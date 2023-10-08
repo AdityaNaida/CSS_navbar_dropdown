@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+nav{
+    padding: 20px 30px;
+    background-color: #000;
+}
+
+nav > h2{
+    display: inline-block;
+    color: #fff;
+    font-size: 2em ;
+    font-weight: 300;
+
+}
+nav > ul{
+    text-align: center;
+    float: right;
+}
+nav > ul > li{
+  display: inline-block;
+  margin: 1em;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: #fff;
+}
